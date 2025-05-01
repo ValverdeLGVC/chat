@@ -1,4 +1,11 @@
 {
+"name": "chat",
+  "version": "1.0.0",
+  "main": robo.js,
+  "script":{
+    "start":"node robo.js"
+  },
+  
   "dependencies": {
     "moment-timezone": "^0.5.45",
     "openai": "^4.78.1",
