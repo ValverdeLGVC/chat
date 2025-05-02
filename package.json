@@ -1,6 +1,4 @@
 {
-"name": "chat",
-  "version": "1.0.0",
   "main": "robo.js",
   "script":{
     "start":"node robo.js"
