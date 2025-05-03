@@ -1,7 +1,7 @@
 
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = 
-reuire('whatsapp-web.js');    // Mudança Buttons
+require('whatsapp-web.js');    // Mudança Buttons
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
