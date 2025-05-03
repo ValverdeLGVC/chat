@@ -51,3 +51,6 @@ client.on('message', async msg => {
 
 
 });
+const http = require('http');
+http.createServer((req, res) =>
+    res.end('Bot ativo')).listen(process.env.PORT || 3000);
