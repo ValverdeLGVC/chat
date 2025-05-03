@@ -8,10 +8,6 @@
   
   "dependencies": {
     "qrcode-terminal": "^0.12.0",
-<<<<<<< HEAD
-    "whatsapp-web.js": "^1.18.6"
-=======
     "whatsapp-web.js": "^1.23.0"
->>>>>>> f286bb08090fbb59dc07e41939db8a185ee5aeed
   }
 }
