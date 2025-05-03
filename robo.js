@@ -9,7 +9,12 @@ const client = new Client({
     }
 });
 client.on('qr', qr => {
-    qrcode.generate(qr, {small: true});
+    const qrLink = 
+        `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(qr)}&size=300x300`;
+        console.log('\nSeu QR Code está disponivel no link a baixo:');
+        console.log(qrlink);
+        console.log('\nAbra esse link em outro dispositivo para escanear o QR com o whatsapp.');
+    //qrcode.generate(qr, {small: true});
 });
 
 client.on('ready', () => {
