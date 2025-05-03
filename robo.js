@@ -1,7 +1,7 @@
 
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = 
-reuire('whatsapp-web.js');    // Mudança Buttons
+require('whatsapp-web.js');    // Mudança Buttons
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
@@ -51,3 +51,6 @@ client.on('message', async msg => {
 
 
 });
+const http = require('http');
+http.createServer((req, res) =>
+    res.end('Bot ativo')).listen(process.env.PORT || 3000);
